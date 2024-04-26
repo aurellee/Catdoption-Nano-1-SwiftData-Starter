@@ -12,7 +12,7 @@ struct PetAdoptionView: View {
     
     @State private var isFilterViewPresented = false
     @State private var isAddNewPetViewPresented = false
-    @Environment(.\modelContext) private var context
+    @Environment(\.modelContext) private var context
     
     /*var position: (x: Int, y: Int, z: Int) = (3, 4, 5)*/ /* ini ngasi tau tipe data mirip tuples, jadi manggilnya bisa position.x */
     
